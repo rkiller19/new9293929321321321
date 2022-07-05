@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Bahiana&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bahiana&family=Poppins:wght@300&display=swap");
 body {
-  background-color: white;
-  font-family: "Bahiana", cursive;
+  background-image: url("./assets/img/ocean.png");
+  font-family: "Tahoma", cursive;
 }
 
 .root {
@@ -11,7 +11,11 @@ body {
 }
 
 .logo-img {
-  height: 80px;
+  height: 140px;
+  position: absolute;
+  top: 4%;
+  left : 45px
+  
 }
 
 .cusbtn {
@@ -19,21 +23,25 @@ body {
   color: #000;
   font-size: 1.4rem;
   padding: 0.8rem 1.5rem;
-  border: 3px solid #ffd7a3;
+  border: 3px solid #0b0b0b;
   font-weight: bold;
-  border-radius: 20px;
+  border-radius: 10px;
   letter-spacing: 3px;
-  font-family: "Bahiana", cursive;
+  font-family: "Tahoma", cursive;
+ 
+  
+  
+  
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .cusbtn:hover {
-  background-color: #febc44;
+  background-color: #0733e3;
   color: #fff;
 }
 
 .rightlogo {
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .button-mint {
@@ -69,11 +77,11 @@ body {
   letter-spacing: 5px;
 
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-  font-family: "Bahiana", cursive;
+  font-family: "Poppins", cursive;
   /* font-family: "Poppins", sans-serif; */
 
   /* color: #fff; */
-  font-size: 33px;
+  font-size: 25px;
 }
 
 .opensealogo {
@@ -96,10 +104,12 @@ body {
 .righttree {
   position: absolute;
   top: 50%;
-  right: 0%;
+  right: 10%;
+
+  
 }
 .rightimg {
-  height: 400px;
+  height: 450px;
 }
 /* .birdsdiv {
   position: absolute;

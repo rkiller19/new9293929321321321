@@ -62,7 +62,7 @@ function App() {
       <ToastContainer />
 
       <div className="root">
-        <div className="lefttree">
+        {/*<div className="lefttree">
           <img
             className="img-fluid leftimg"
             src={require("./assets/img/left.svg").default}
@@ -75,7 +75,7 @@ function App() {
             src={require("./assets/img/right.png").default}
             alt=""
           />
-        </div>
+        </div>*/}
         {/* <div className="birdsdiv">
           <img
             className="img-fluid birdimg"
@@ -84,19 +84,19 @@ function App() {
           />
         </div> */}
         <Container>
-          <div className="cus-navb mt-3 d-flex justify-content-between align-items-center">
+          <div className="cus-navb mt-4 pt-1 d-flex justify-content-between align-items-right">
             <div className="logo">
               <img
                 className="img-fluid logo-img"
-                src={require("./assets/img/logo.svg").default}
+                src={require("./assets/img/Whaleslogo.png").default}
                 alt=""
               />
             </div>
-            <div className="con-btn">
+            <div className="con-btn align-items-right justify-content-right"  >
               {
                 !account ?
-                  <button className="cusbtn" onClick={connectMetamask}>Connect Wallet</button> :
-                  <button className="cusbtn" onClick={Disconnect}>Disconnect</button>
+                  <button className="cusbtn  " onClick={connectMetamask} >Connect Wallet</button> :
+                  <button className="cusbtn  " onClick={Disconnect}>Disconnect</button>
               }
             </div>
           </div>
