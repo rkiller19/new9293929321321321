@@ -15,7 +15,7 @@ function App() {
   const { buy } = useBuy();
 
 
-  const price = 10;
+  const price = 20;
   const { login, logout } = useAuth();
   const { account } = useWeb3React();
 
@@ -130,7 +130,7 @@ function App() {
                   {/* <h3 className="subtitle"> {supply} / {supplyMax}</h3> */}
                 </div>
                 <div className="text-center mt-4">
-                  <h3 className="subtitle">{price} Tokens Per AVAX</h3>
+                  <h3 className="subtitle">1 $WHALEUSD = 0.05 AVAX / 1 USDC</h3>
                 </div>
                 <div className="text-center mt-5">
                   <img
